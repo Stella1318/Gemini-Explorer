@@ -29,7 +29,7 @@ def llm_function(chat: ChatSession, query):
     st.session_state.messages.append({"role": "model", "content": output})
 
 # Streamlit app layout
-st.title("geminiExplorer")
+st.title("Gemini Explorer, Chat Interface by Stella")
 # Initialize chat history
 if "messages" not in st.session_state:
     st.session_state.messages = []
